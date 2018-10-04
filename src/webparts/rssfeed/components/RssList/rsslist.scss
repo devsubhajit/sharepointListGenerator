@@ -1,0 +1,27 @@
+.rssList {
+    list-style: none;
+    padding: 5px 10px 30px;
+    border-bottom: 1px solid #d0cece;
+    background-color: #fff;
+    &:hover {
+        background-color:#f1f1f1; 
+    }
+    h1{
+        color: #555;
+        font-size: 1.2rem;
+        a {
+            text-decoration: none;
+            color: inherit;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .posted {
+        color:#000;
+        span {
+            color: #ababab;
+            margin-left:0.4rem;
+        }
+    }
+}
